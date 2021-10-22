@@ -1,0 +1,50 @@
+.hero {
+    height: 600px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero--background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero--text {
+    @include text-styles(white, 140px);
+    letter-spacing: 40px;
+    text-transform: uppercase;  
+}
+
+.statement {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.statement--text {
+    @include text-styles(black, 40px, 50px);
+
+}
+.home-img-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 120px;
+    margin: 0 50px;
+}
+
+.home-img-links__img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.home-img-links--background {
+    background-color: black;
+}

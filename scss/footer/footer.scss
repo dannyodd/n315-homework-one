@@ -1,0 +1,48 @@
+footer {
+    background-color: black;
+    color: white;
+    padding: 36px;
+    text-align: center;
+    .join-newsletter {
+        width: 54.4%;
+        max-width: 696px;
+        height: 60px;
+        display: flex;
+        margin: 40px auto;
+        input {
+            max-width: 529px;
+            width: 76%;
+            height: 60px;
+            border: none;
+            background-color: rgb(200,200,200);
+            color: white;
+            padding: 20px;
+        }
+        ::placeholder {
+            color: rgba(255,255,255,0.5);
+        }
+        button {
+            width: 167px;
+            height: 60px;
+            background-color: white;
+            color: black;
+            text-transform: uppercase;
+            border: none;
+            letter-spacing: 1.5px;
+        }
+    }
+    .sm-links {
+        margin: 30px auto;
+        max-width: 157px;
+        display: flex;
+        justify-content: space-between;
+        a {
+            text-decoration: none;
+        }
+        svg {
+            width: 32px;
+            height: 32px;
+            fill: white;
+        }
+    }
+}

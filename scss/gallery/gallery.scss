@@ -1,0 +1,28 @@
+.gallery-content {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.gallery-images__feature {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery-images__row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.gallery-images__img-sm {
+    height: 400px;
+    width: 35%;
+    object-fit: cover;
+}
+
+.gallery-images__img-lg {
+    height: 400px;
+    width: 64%;
+    object-fit: cover;
+}

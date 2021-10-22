@@ -1,0 +1,16 @@
+@mixin text-styles($color: black, $size: 48px, $bMargin: 16px) {
+    color: $color;
+    h1, h2 {
+        font-family: 'Haettenschweiler';
+        font-size: $size;
+        margin-bottom: $bMargin;
+    }
+    h3, h4, h5, h6 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 32px;
+    }
+    p {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,30 @@
+.blog-content {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.blog-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog-main__item {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    height: 350px;
+    margin: 20px;
+}
+
+.blog-main__item--img {
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+}
+
+.blog-main__item--text {
+    padding-left: 20px;
+    @include text-styles;
+}
